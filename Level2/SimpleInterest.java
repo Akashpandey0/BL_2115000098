@@ -3,7 +3,7 @@ import java.util.*;
 public class SimpleInterest {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        // Take principal, rate and time as input
+        System.out.println("Take principal, rate and time as input: "); 
         double principal = sc.nextDouble();
         double rate = sc.nextDouble(); 
         double time = sc.nextDouble();
