@@ -18,12 +18,12 @@ public class Book{
 	
 	
 	public static void main(String []args){
-		Scanner adi= new Scanner(System.in);
-		String title= adi.nextLine();
-		String author= adi.nextLine();
-		double price= adi.nextDouble();
+		Scanner sc= new Scanner(System.in);
+		String title= sc.nextLine();
+		String author= sc.nextLine();
+		double price= sc.nextDouble();
 		
 		Book book= new Book(title,author,price);
-		book.display();
+		display();
 	}
 }

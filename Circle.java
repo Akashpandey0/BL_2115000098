@@ -14,19 +14,19 @@ public class Circle{
 		return 3.14*Math.pow(radius,2);
 	}
 	
-	public void display(){
+	public static void display(){
 	    System.out.println("Circumference: "+circumference(radius));
 		System.out.println("Area: "+area(radius));
 	}
 	
 	
 	public static void main(String []args){
-		Scanner adi= new Scanner(System.in);
-		double radius= adi.nextDouble();
+		Scanner sc= new Scanner(System.in);
+		double radius= sc.nextDouble();
 		
 		Circle circle= new Circle(radius);
 		double circum= circumference(radius);
 		double area= area(radius);
-		circle.display();
+		display();
 	}
 }

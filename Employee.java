@@ -18,12 +18,12 @@ public class Employee{
 	
 	
 	public static void main(String []args){
-		Scanner adi= new Scanner(System.in);
-		String s= adi.nextLine();
-		int id= adi.nextInt();
-		int salary= adi.nextInt();
+		Scanner sc= new Scanner(System.in);
+		String s= sc.nextLine();
+		int id= sc.nextInt();
+		int salary= sc.nextInt();
 		
 		Employee emp= new Employee(s,id,salary);
-		emp.display();
+		display();
 	}
 }
