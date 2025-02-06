@@ -254,3 +254,14 @@
 - static
 - final
 - instanceof operator
+
+### 06th February
+
+- **What was taught**: class diagram, object diagram and sequence diagram.
+- **What i Learned**: practised of 2 question on diagram and  7 questions on aggregation association to enhance my skills.
+
+[Topic]
+
+- class diagram
+- object diagram
+- sequence diagram
