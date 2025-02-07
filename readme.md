@@ -269,13 +269,6 @@
 
 ### 07th February
 
-- **What was taught**: Learnt about Inheritance and their types .
-- **What i Learned**: practised of 2 question on diagram and  7 questions on aggregation association and composition to enhance my skills.
-
-[Topic]
-
-### 06th February
-
 - **What was taught**: Learnt about Inheritance and their types.
 - **What i Learned**: practised of 10 question given by mentors to enhance my skills.
 
@@ -290,3 +283,4 @@
 - Constructor Inheritance in Java
 - Polymorphism and Inheritance
  - Access Modifiers and Inheritance
+ 
