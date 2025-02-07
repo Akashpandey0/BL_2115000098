@@ -2,8 +2,6 @@
 
 ## Learning Journal
 
-- ## Learning Journal
-
 ### 20th January
 
 - **What Was Taught**: Classroom notes were provided for study.
