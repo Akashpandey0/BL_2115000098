@@ -66,5 +66,8 @@ public class VehicleDemo {
     vehicles[0] = new Car(120, "Petrol", 4);
     vehicles[1] = new Truck(80, "Diesel", 1000);
     vehicles[2] = new MotorCycle(150, "Petrol", "Sports");
+    for (Vehicle v : vehicles) {
+        v.showDetails();
+    }
    } 
 }
