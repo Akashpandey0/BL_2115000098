@@ -82,7 +82,7 @@ class TicketReservationSystem {
                 System.out.println("Found Ticket - ID: " + temp.ticketId + " | Customer: " + temp.customerName + " | Movie: " + temp.movieName);
             }
             temp = temp.next;
-        } while (temp != head);
+        } while (temp != null && temp != head);
     }
 
     // Count total number of booked tickets
@@ -108,8 +108,8 @@ public class OnlineTicketReservationSystem {
         System.out.println("All Ticket Reservations:");
         system.displayTickets();
 
-        System.out.println("\nSearching for tickets booked by 'Alice Smith':");
-        system.searchTicket("Alice Smith");
+        System.out.println("\nSearching for tickets booked by:");
+        system.searchTicket("Aditya");
 
         System.out.println("\nTotal Tickets Booked: " + system.countTickets());
     }
