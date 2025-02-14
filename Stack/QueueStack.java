@@ -1,5 +1,6 @@
 package Stack;
 
+import java.sql.SQLOutput;
 import java.util.Queue;
 import java.util.LinkedList;
 
@@ -25,7 +26,7 @@ class MyStack {
         return queue.peek();
     }
 
-    public boolean empty() {
+    public boolean isEmpty() {
         return queue.isEmpty();
     }
 }
@@ -38,9 +39,9 @@ public class QueueStack {
         stack.push(2);
         stack.push(3);
 
-        System.out.println(stack.top());
-        System.out.println(stack.pop());
-        System.out.println(stack.top());
-        System.out.println(stack.empty());
+        while(!stack.isEmpty()) {
+            System.out.println(stack.top());
+            stack.pop();
+        }
     }
 }
