@@ -1,8 +1,8 @@
 class Student {
-    int rollNumber;
-    String name;
-    int age;
-    char grade;
+    private int rollNumber;
+    private String name;
+    private int age;
+    private char grade;
     Student next;
 
     public Student(int rollNumber, String name, int age, char grade) {
@@ -12,10 +12,35 @@ class Student {
         this.grade = grade;
         this.next = null;
     }
+
+
+    public int getRollNumber() {
+        return rollNumber;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
 
-class StudentLinkedList {
-    private Student head;
+interface InnerStudentRecord {
+    void displayStudentDetails();
+}
+
+class StudentLinkedList implements InnerStudentRecord {
+        private Student head;
 
     // Insert a student at the beginning
     public void addStudentAtBeginning(int rollNumber, String name, int age, char grade) {
@@ -67,12 +92,12 @@ class StudentLinkedList {
             System.out.println("List is empty");
             return;
         }
-        if (head.rollNumber == rollNumber) {
+        if (head.getRollNumber() == rollNumber) {
             head = head.next;
             return;
         }
         Student temp = head;
-        while (temp.next != null && temp.next.rollNumber != rollNumber) {
+        while (temp.next != null && temp.next.getRollNumber() != rollNumber) {
             temp = temp.next;
         }
         if (temp.next == null) {
@@ -86,7 +111,7 @@ class StudentLinkedList {
     public Student searchStudent(int rollNumber) {
         Student temp = head;
         while (temp != null) {
-            if (temp.rollNumber == rollNumber) {
+            if (temp.getRollNumber() == rollNumber) {
                 return temp;
             }
             temp = temp.next;
@@ -98,21 +123,22 @@ class StudentLinkedList {
     public void updateStudentGrade(int rollNumber, char newGrade) {
         Student student = searchStudent(rollNumber);
         if (student != null) {
-            student.grade = newGrade;
+            student.setGrade(newGrade);
         } else {
             System.out.println("Student not found");
         }
     }
 
     // Display all student records
-    public void displayStudents() {
+    @Override
+    public void displayStudentDetails() {
         if (head == null) {
             System.out.println("No student records available");
             return;
         }
         Student temp = head;
         while (temp != null) {
-            System.out.println("Roll No: " + temp.rollNumber + ", Name: " + temp.name + ", Age: " + temp.age + ", Grade: " + temp.grade);
+            System.out.println("Roll No: " + temp.getRollNumber() + ", Name: " + temp.getName() + ", Age: " + temp.getAge() + ", Grade: " + temp.getGrade());
             temp = temp.next;
         }
     }
@@ -127,14 +153,14 @@ public class StudentRecord {
         list.addStudentAtPosition(2, 104, "Adarsh", 21, 'B');
         
         System.out.println("All students:");
-        list.displayStudents();
+        list.displayStudentDetails();
         
         System.out.println("\nUpdating grade of Roll No 102");
         list.updateStudentGrade(102, 'A');
-        list.displayStudents();
+        list.displayStudentDetails();
         
         System.out.println("\nDeleting student with Roll No 103");
         list.deleteStudent(103);
-        list.displayStudents();
+        list.displayStudentDetails();
     }
 }
