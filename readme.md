@@ -7,12 +7,12 @@
 ### 20th January
 
 - **What Was Taught**: Classroom notes were provided for study.
-- **What I Learned**: I reviewed the classroom notes and understood the basics.
+- **What I learned**: I reviewed the classroom notes and understood the basics.
 
 ### 21st January
 
 - **What was taught**: Classroom notes of Java Programming Elements.
-- **What i Learned** : Understood the topics and solved assessment over topics.
+- **What I learned** : Understood the topics and solved assessment over topics.
   [topic]
 
 1. Java Comments
@@ -26,7 +26,7 @@
 ### 22nd January
 
 - **What was taught**: Problems of 21st discussed.
-- **What i Learned**: Understood the control flow statements.
+- **What I learned**: Understood the control flow statements.
 
 [Topic]
 
@@ -42,7 +42,7 @@
 ### 23rd January
 
 - **What was taught**: Problems of 22nd were asked to complete and practice set for today was provided.
-- **What i Learned**: Understood the Arrays data structures , for both 1D and 2D.
+- **What I learned**: Understood the Arrays data structures , for both 1D and 2D.
 
 [Topic]
 
@@ -60,7 +60,7 @@
 ### 27th January
 
 - **What was taught**: Assignment over the below mentioned topics was provided.
-- **What i Learned**: Recursion,methods,static imports , multiple method invocation.
+- **What I learned**: Recursion,methods,static imports , multiple method invocation.
 
 [Topic]
 
@@ -75,7 +75,7 @@
 ### 28th January
 
 - **What was taught**: Concept of string was introduced from basic to utilites.
-- **What i Learned**: Practised on level of problems on the former topic.
+- **What I learned**: Practised on level of problems on the former topic.
 
 [Topic]
 
@@ -96,7 +96,7 @@
 ### 30th January
 
 - **What was taught**: OOPS concept was breifly described about the class and object relation.
-- **What i Learned**: Three problems for creating class and object were provided.
+- **What I learned**: Three problems for creating class and object were provided.
 
 [Topic]
 
@@ -105,7 +105,7 @@
 ### 31th January
 
 - **What was taught**: Concept of class and objects.
-- **What i Learned**: The problems for creating class and object were provided for practise.
+- **What I learned**: The problems for creating class and object were provided for practise.
 
 [Topic]
 
@@ -114,7 +114,7 @@
 ### 02nd February 
 
 - **What was taught**: Comparison between Default and patrametrised constructor and about sub classes accessing differnt members of super.
-- **What i Learned**: The problems for creating class and object were provided for practise.
+- **What I learned**: The problems for creating class and object were provided for practise.
 
 [Topic]
 
@@ -125,7 +125,7 @@
 ### 04th February
 
 - **What was taught**: OOPs concept like static and final.
-- **What i Learned**: practised 7 questions to enhance my skills.
+- **What I learned**: practised 7 questions to enhance my skills.
 
 [Topic]
 
@@ -137,7 +137,7 @@
 ### 06th February
 
 - **What was taught**: class diagram, object diagram and sequence diagram.
-- **What i Learned**: practised of 2 question on diagram and  7 questions on aggregation association and composition to enhance my skills.
+- **What I learned**: practised of 2 question on diagram and  7 questions on aggregation association and composition to enhance my skills.
 
 [Topic]
 
@@ -149,7 +149,7 @@
 ### 07th February
 
 - **What was taught**: Learnt about Inheritance and their types.
-- **What i Learned**: practised of 10 question given by mentors to enhance my skills.
+- **What I learned**: practised of 10 question given by mentors to enhance my skills.
 
 [Topic]
 
@@ -166,7 +166,7 @@
 ### 10th February
 
 - **What was taught**: Learnt about Encapsulation and Abstraction.
-- **What i Learned**: Learnt about Abstraction, Encapsulation, Interface, Polymorphism and practised some question on these related topics to enhance my skills.
+- **What I learned**: Learnt about Abstraction, Encapsulation, Interface, Polymorphism and practised some question on these related topics to enhance my skills.
 
 [Topic]
 
@@ -178,7 +178,7 @@
 ### 12th february
 
 - **What was taught**: Learnt about Linked List and its types.
-- **What i Learned**: Practised of 10 question on linked list to enhance my skills on each and every types of Linked List.
+- **What I learned**: Practised of 10 question on linked list to enhance my skills on each and every types of Linked List.
 
 [Topic]
 
@@ -190,7 +190,7 @@
 ### 13th february
 
 **What was taught**: Learnt about Stack, Queue, Hashmap and their types.
-**What i Learned**: Practised of 10 question on Stack, Queue, Hashmap to enhance my skills.
+**What I learned**: Practised of 10 question on Stack, Queue, Hashmap to enhance my skills.
 
 [Topic]
 
@@ -202,7 +202,7 @@
 ### 14th february
 
 **What was taught**: Learnt about Sorting.
-**What i Learned**: Practised of 10 question on Sorting to enhance my skills.
+**What I learned**: Practised of 10 question on Sorting to enhance my skills.
 
 [Topic]
 
@@ -212,10 +212,10 @@
 - Quick Sort
 - Countion Sort
 
-### 15th february
+### 16th february
 
 **What was taught**: Learnt about Searching, String Builder and String Buffer.
-**What i Learned**: Practised of some questions on Searching, String Builder and String Buffer to
+**What I learned**: Practised of some questions on Searching, String Builder and String Buffer to
 
 [Topic]
 
@@ -224,3 +224,34 @@
 - Linear Search
 - Binary Search
 - BefferedReader
+
+### 17th February 
+
+- **What was taught**: Learnt about Algorithm's Runtime Analysis & Big-O Notation.
+- **What I learned**: Practised of some questions on Algorithm's Runtime Analysis & Big-O Notation to improve skills.
+
+[Topic]
+
+- General Algorithm Best Practices
+- Time and space Complexity Optimization
+
+### 18th february
+
+- **What was taught**: Learnt about Java Generics.
+- **What I learned**: Practised of some questions on Java Generics to enhanced my skills.
+
+[Topic]
+
+- Java Generics
+
+### 20th february
+
+- **What was taught**: Learnt about Java Collection Frameworks.
+- **What I learned**: Practised about 25 questions on Java Collection Frameworks in different topics like LinkedList, Map, Queue, etc to enhance my skills.
+
+[Topic]
+
+- List Interface
+- Map Interface
+- Queue Interface
+- Stack Interface
