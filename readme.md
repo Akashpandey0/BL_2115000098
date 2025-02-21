@@ -237,12 +237,13 @@
 
 ### 18th february
 
-- **What was taught**: Learnt about Java Generics.
+- **What was taught**: Learnt about Java Generics and wrapper class.
 - **What I learned**: Practised of some questions on Java Generics to enhanced my skills.
 
 [Topic]
 
 - Java Generics
+- wrapper class
 
 ### 20th february
 
